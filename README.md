@@ -3,18 +3,18 @@ Sublime Tutor
 
 ![Sublime Tutor Screenshot](https://raw.githubusercontent.com/jaipandya/SublimeTutor/gh-pages/images/screenshots/sublimetutor1.jpg)
 
-         _______. __    __  .______    __       __  .___  ___.  _______    
-        /       ||  |  |  | |   _  \  |  |     |  | |   \/   | |   ____|   
-       |   (----`|  |  |  | |  |_)  | |  |     |  | |  \  /  | |  |__      
-        \   \    |  |  |  | |   _  <  |  |     |  | |  |\/|  | |   __|     
-    .----)   |   |  `--'  | |  |_)  | |  `----.|  | |  |  |  | |  |____    
-    |_______/   .___________.________ |.___________.|________|.________|   
-                |           |  |  |  | |           |/  __  \  |   _  \     
-                `---|  |----|  |  |  | `---|  |----|  |  |  | |  |_)  |    
-                    |  |    |  |  |  |     |  |    |  |  |  | |      /     
+         _______. __    __  .______    __       __  .___  ___.  _______
+        /       ||  |  |  | |   _  \  |  |     |  | |   \/   | |   ____|
+       |   (----`|  |  |  | |  |_)  | |  |     |  | |  \  /  | |  |__
+        \   \    |  |  |  | |   _  <  |  |     |  | |  |\/|  | |   __|
+    .----)   |   |  `--'  | |  |_)  | |  `----.|  | |  |  |  | |  |____
+    |_______/   .___________.________ |.___________.|________|.________|
+                |           |  |  |  | |           |/  __  \  |   _  \
+                `---|  |----|  |  |  | `---|  |----|  |  |  | |  |_)  |
+                    |  |    |  |  |  |     |  |    |  |  |  | |      /
                     |  |    |  `--'  |     |  |    |  `--'  | |  |\  \----.
                     |__|     \______/      |__|     \______/  | _| `._____|
-                                                         FOR SUBLIME TEXT 3         
+                                                         FOR SUBLIME TEXT 3
 
 Sublime Text 3 is a powerful and easy to use text editor. An ultra simple user
 interface beautifully hides all the complexity behind. You can start using the
@@ -24,15 +24,15 @@ When I started using Sublime Text, I was a migrant from the world of TextMate
 and Vim. While a lot of keyboard shortcuts and features were similar to
 TextMate, some looked alien as well. Earlier, when I was learning Vim, I had
 found vimtutor to be of great help. In my early days with Sublime, I was
-looking for a similar solution which could interactively teach new shortcuts 
+looking for a similar solution which could interactively teach new shortcuts
 inside the editor itself.
 
 This tutorial is inspired from classic vimtutor. You will get to learn
 some handy shortcuts to work with Sublime Text 3. By the end of this tutorial,
-you would be familiar with ST's most important and frequently used shortcuts 
+you would be familiar with ST's most important and frequently used shortcuts
 and features.
 
-The tutorial uses spaced repetition technique to make sure that your newly 
+The tutorial uses spaced repetition technique to make sure that your newly
 acquired skills are well persisted.
 
 Requirements
@@ -49,31 +49,28 @@ lot of improvements have been made since the version 2 and the latest version
 is stable enough to do most of the things. Unless, your life depends on a plugin
 that is only supported by ST2. I can't help you then.
 
-Installation
--------------
 
-Via [Package Control](https://Sublime.wbond.net/):
+## Installation
 
-1. Install [Package Control](https://Sublime.wbond.net/) if already not installed:
-   https://packagecontrol.io/installation#st3
-2. Press <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> to bring command palette
-   in front
-3. Type `Install Package` and press enter.
-4. Search for `Sublime Tutor` and press enter to install the plugin.
+### By Package Control
 
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `SublimeTutorial` and press <kbd>Enter</kbd>
+1. Restart Sublime Text
 
-### Manual Installation:
-
-1. Make sure you have [git][1] already installed.
-2. `cd` into the `Packages` directory of Sublime Text 3. On Mac, it usually 
-   resides at the following path: `~/Library/Application Support/Sublime Text 3
-   /Packages/`. Alternatively you can open in via a menu item:
-   `Preferences > Browse Packages...`
-3. Once you are inside Packages directory, clone this repository:
-   `git clone git@github.com:jaipandya/SublimeTutor.git`. Alternatively download and
-   extract the latest release for your platform here:
-   https://github.com/jaipandya/SublimeTutor/releases
-4. Restart Sublime Text
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
 
 Getting Started
@@ -83,7 +80,7 @@ If you haven't already, install Sublime Tutor using the installation steps
 given above.
 
 Once Sublime Tutor is installed, press <kbd>Ctrl</kbd>+<kbd>Option</kbd>+<kbd>K</kbd>
-keyboard shortcut to open this file in Sublime Text. Another option is to go to 
+keyboard shortcut to open this file in Sublime Text. Another option is to go to
 `Help > Sublime Tutor` menu option to open this.
 
 Via Command Palette:
